@@ -17,8 +17,8 @@ export default function Home() {
         <title>Amos Matthew ✦ Frontend Software Engineer</title>
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
-      <div className="lg:min-h-screen px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
-        <div className="lg:h-screen 2xl:h-max max-w-[90rem] mx-auto">
+      <div className=" px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
+        <div className="2xl:h-max max-w-[90rem] mx-auto">
           <div className="">
             <Blob />
           </div>
