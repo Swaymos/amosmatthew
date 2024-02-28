@@ -19,11 +19,13 @@ export default function Home() {
       </Head>
       <div className="lg:min-h-screen px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
         <div className="lg:h-screen 2xl:h-max max-w-[90rem] mx-auto">
-          <Blob />
+          <div className="">
+            <Blob />
+          </div>
           <div className="flex flex-row justify-start items-center mt-20">
             <div className="flex flex-col">
               <h2
-                className={`font-bold sm:text-2xl md:text-2xl lg:text-3xl ${
+                className={`font-bold text-2xl sm:text-2xl md:text-2xl lg:text-3xl ${
                   currentTheme === "light" ? "text-purple-950" : "text-light"
                 }`}
               >
@@ -44,7 +46,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-left pt-7 space-x-3 md:space-x-6 lg:space-x-8 items-center  my-4">
+        <div className="flex flex-wrap justify-left pt-7 space-x-3 md:space-x-6 lg:space-x-8 items-center  my-4">
           <div className="group border-purple-400 hover:bg-purple-400 hover:text-white hover:drop-shadow-2xl text-purple-500 rounded-md md:rounded-xl px-2 py-1 md:px-4 md:py-2 shadow-md drop-shadow-lg dark:bg-purple-400 dark:shadow-none dark:hover:shadow-white select-none dark:text-white shadow-purple-300 ">
             <Link
               href="/Pranjal_Shikhar_Sinha.pdf"
@@ -65,13 +67,13 @@ export default function Home() {
             </Link>
           </div>
         </div>
+      </div>
+      <div className="mt-28 mx-auto">
+        <Experience />
+      </div>
 
-        <div className="mt-28 mx-auto">
-          <Experience />
-        </div>
-        <div className="mt-28 mx-auto ">
-          <Contact />
-        </div>
+      <div className="mt-10 px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
+        <Contact />
       </div>
     </>
   );

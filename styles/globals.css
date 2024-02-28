@@ -417,3 +417,15 @@
     }
   }
 }
+
+.header-logo {
+  width: 60%;
+}
+
+.list-disc li {
+  margin-top: 10px;
+}
+
+.feature-list p {
+  margin-top: 20px;
+}

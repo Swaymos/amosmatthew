@@ -62,20 +62,20 @@ const Experience = () => {
             skills mainly in ReactJs centered tools. I have added a splash of
             personality to every project I work on.
           </div>
-          <div className="flex space-x-4 ml-2 justify-center text-[0.9rem] dark:text-black">
-            <span className="bg-gradient-to-b dark:from-indigo-500 dark:to-blue-400 from-indigo-200 to-blue-200 rounded-md text-center px-2 py-1">
+          <div className="flex flex-wrap space-x-4 ml-2 justify-center text-[0.9rem] dark:text-black">
+            <span className="m-2 bg-gradient-to-b dark:from-indigo-500 dark:to-blue-400 from-indigo-200 to-blue-200 rounded-md text-center px-2 py-1">
               NextJs
             </span>
-            <span className="bg-gradient-to-b dark:from-indigo-500 dark:to-blue-400 from-indigo-200 to-blue-200 rounded-md text-center px-2 py-1">
+            <span className="m-2 bg-gradient-to-b dark:from-indigo-500 dark:to-blue-400 from-indigo-200 to-blue-200 rounded-md text-center px-2 py-1">
               Tailwind
             </span>
-            <span className="bg-gradient-to-b dark:from-indigo-500 dark:to-blue-400 from-indigo-200 to-blue-200 rounded-md text-center px-2 py-1">
+            <span className="m-2 bg-gradient-to-b dark:from-indigo-500 dark:to-blue-400 from-indigo-200 to-blue-200 rounded-md text-center px-2 py-1">
               Typescript
             </span>
-            <span className="bg-gradient-to-b dark:from-indigo-500 dark:to-blue-400 from-indigo-200 to-blue-200 rounded-md text-center px-2 py-1">
+            <span className="m-2 bg-gradient-to-b dark:from-indigo-500 dark:to-blue-400 from-indigo-200 to-blue-200 rounded-md text-center px-2 py-1">
               Mongo DB
             </span>
-            <span className="bg-gradient-to-b dark:from-indigo-500 dark:to-blue-400 from-indigo-200 to-blue-200 rounded-md text-center px-2 py-1">
+            <span className="m-2 bg-gradient-to-b dark:from-indigo-500 dark:to-blue-400 from-indigo-200 to-blue-200 rounded-md text-center px-2 py-1">
               React JS
             </span>
           </div>

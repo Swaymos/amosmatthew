@@ -1,3 +1,4 @@
+import Contact from "@/components/Contact";
 import ProjectCard from "@/components/ProjectCard";
 import Head from "next/head";
 
@@ -12,7 +13,7 @@ export default function Wok() {
         <div className="pt-24 flex flex-col items-cen mx-auto">
           <h2
             className={
-              "selection:text-black/40 dark:selection:text-white/40 font-deca bg-gradient-to-tr from-teal-300 to-blue-500 bg-clip-text text-transparent items-center mx-auto text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold"
+              " font-deca text-sky-950 items-center mx-auto text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold"
             }
           >
             Works
@@ -45,6 +46,9 @@ export default function Wok() {
         </div>
         <div className="mt-20 mb-20">
           <ProjectCard />
+        </div>
+        <div>
+          <Contact />
         </div>
       </main>
     </div>

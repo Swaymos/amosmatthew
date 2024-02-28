@@ -63,15 +63,16 @@ const Header = () => {
   }, []);
   if (!mounted) return null;
   const currentTheme = theme === "system" ? systemTheme : theme;
+
   return (
     <nav
       ref={touchRef}
       className={`${
         isScrolled && "bg-opacity-[0.7] shadow-md drop-shadow-lg "
-      } font-medium duration-500 bg-opacity-90 transition-all linear z-40 dark:text-white w-[75%] sm:w-[75%] md:w-[70%] lg:w-[55%] xl:w-[50%] max-w-6xl mx-auto  bg-white dark:bg-[#353535] drop-shadow-xs backdrop-blur-sm top-4 sticky rounded-2xl `}
+      } font-medium duration-500 bg-opacity-90 transition-all linear z-40 dark:text-white w-[85%] sm:w-[75%] md:w-[70%] lg:w-[55%] xl:w-[50%] max-w-6xl mx-auto  bg-white dark:bg-[#353535] drop-shadow-xs backdrop-blur-sm top-4 sticky rounded-2xl `}
     >
       <div className="flex justify-between md:space-x-10 lg:space-x-12 xl:space-x-16 md:flex items-center place-items-center md:justify-center py-3 md:px-10 px-8">
-        <div className="select-none order-2 md:order-1 cursor-pointer flex items-center text-gray-800">
+        <div className="header-logo select-none order-2 md:order-1 cursor-pointer flex items-center text-gray-800">
           <Link href={"/"} className="">
             {currentTheme === "dark" ? (
               <Image src={logoLight} alt="header" width="80%" />

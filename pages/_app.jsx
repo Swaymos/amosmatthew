@@ -6,7 +6,7 @@ import { ThemeProvider } from "next-themes";
 export default function App({ Component, pageProps }) {
   return (
     <ThemeProvider enableSystem={true} attribute="class">
-      <main className="land relative z-10">
+      <main className="land w-full overflow-hidden relative z-10">
         <Header />
         <Component {...pageProps} />
         <Footer />
