@@ -40,8 +40,7 @@ export default function Home() {
               elegant and intuitive interfaces that leave a lasting impression.
               Leveraging proficiency in HTML, CSS, JavaScript, and frontend
               frameworks, pride is taken in delivering polished solutions
-              tailored to your needs. Let's collaborate to create something
-              remarkable for your audience.
+              tailored to your needs.
             </p>
           </div>
         </div>
