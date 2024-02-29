@@ -7,13 +7,17 @@ import { useTheme } from "next-themes";
 import logoDark from "../public/logo-dark.svg";
 import logoLight from "../public/logo-light.svg";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
+  const pathname = usePathname();
+  const isWork = pathname.includes("/work");
+
   const { systemTheme, theme, setTheme } = useTheme();
   const router = useRouter().asPath;
   const [mounted, setMounted] = useState(false);
   let Links = [
-    { name: "work", link: "/work" },
+    { name: "work", link: "/work", isActive: isWork },
     { name: "about", link: "/about" },
     { name: "tech", link: "/tech" },
   ];
@@ -136,6 +140,10 @@ const Header = () => {
                 onClick={() => clickHandler(`${link.name}`)}
                 className={`${
                   router === link.link
+                    ? " text-purple-400 font-semibold "
+                    : " text-gray-700 dark:text-white "
+                } ${
+                  link.isActive
                     ? " text-purple-400 font-semibold "
                     : " text-gray-700 dark:text-white "
                 } hover:text-purple-500 dark:hover:text-purple-500 duration-500`}
