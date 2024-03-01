@@ -54,7 +54,7 @@ const Experience = () => {
         <div className="absolute left-[0%] md:left-[10%] lg:left-[50%] w-[3px] h-full top-8 md:top-4 bg-gradient-to-b from-teal-400 via-purple-400 to-orange-400 border-[#ffffff80] border rounded lg:hidden"></div>
 
         <div className="drop-shadow-2xl flex flex-col space-y-4 mx-6 md:mx-20 lg:mx-0 md:w-[70%] lg:w-[80%] max-w-2xl rounded-[1.4rem] p-4 rounded-tl-none md:rounded-tr-none lg:rounded-tl-[2rem] hover:bg-gradient-to-tr hover:from-[#ffeff7] hover:to-[#F0F6FE] transition ease-in-out duration-500 hover:shadow-xl transform hover:-translate-x-2  bg-gradient-to-tr from-[#ffeff7] to-[#F0F6FE] dark:from-gray-900 dark:to-gray-600 dark:hover:bg-gradient-to-tr dark:hover:from-gray-900 dark:hover:to-gray-600 lg:bg-none">
-          <div className="mx-auto text-center font-bold font-deca text-2xl text-indigo-500 dark:text-[#4cc9f0]">
+          <div className="mx-auto text-center font-bold font-deca text-2xl text-indigo-500 dark:text-[#e9eff1]">
             Frontend Development
           </div>
           <div className="font-normal sm:text-[0.95rem] md:text-base text-center">
@@ -63,19 +63,19 @@ const Experience = () => {
             personality to every project I work on.
           </div>
           <div className="flex flex-wrap space-x-4 ml-2 justify-center text-[0.9rem] dark:text-black">
-            <span className="m-2 bg-gradient-to-b dark:from-indigo-500 dark:to-blue-400 from-indigo-200 to-blue-200 rounded-md text-center px-2 py-1">
+            <span className="m-2 bg-gradient-to-b from-amber-100 to-orange-100 dark:from-amber-300 dark:to-orange-300 rounded-md text-center px-2 py-1">
               NextJs
             </span>
-            <span className="m-2 bg-gradient-to-b dark:from-indigo-500 dark:to-blue-400 from-indigo-200 to-blue-200 rounded-md text-center px-2 py-1">
+            <span className="m-2 bg-gradient-to-b from-amber-100 to-orange-100 dark:from-amber-300 dark:to-orange-300 rounded-md text-center px-2 py-1">
               Tailwind
             </span>
-            <span className="m-2 bg-gradient-to-b dark:from-indigo-500 dark:to-blue-400 from-indigo-200 to-blue-200 rounded-md text-center px-2 py-1">
+            <span className="m-2 bg-gradient-to-b from-amber-100 to-orange-100 dark:from-amber-300 dark:to-orange-300 rounded-md text-center px-2 py-1">
               Typescript
             </span>
-            <span className="m-2 bg-gradient-to-b dark:from-indigo-500 dark:to-blue-400 from-indigo-200 to-blue-200 rounded-md text-center px-2 py-1">
+            <span className="m-2 bg-gradient-to-b from-amber-100 to-orange-100 dark:from-amber-300 dark:to-orange-300 rounded-md text-center px-2 py-1">
               Mongo DB
             </span>
-            <span className="m-2 bg-gradient-to-b dark:from-indigo-500 dark:to-blue-400 from-indigo-200 to-blue-200 rounded-md text-center px-2 py-1">
+            <span className="m-2 bg-gradient-to-b from-amber-100 to-orange-100 dark:from-amber-300 dark:to-orange-300 rounded-md text-center px-2 py-1">
               React JS
             </span>
           </div>
@@ -91,7 +91,7 @@ const Experience = () => {
           </div>
         </div>
         <div className="drop-shadow-xl flex flex-col space-y-4 mx-6 md:mx-20 lg:mx-0 md:w-[70%] lg:w-[80%] max-w-2xl rounded-[1.4rem] p-4 rounded-tl-none hover:bg-gradient-to-tr hover:from-[#ffeff7] hover:to-[#F0F6FE] transition ease-in-out duration-500 hover:shadow-xl transform hover:translate-x-2 bg-gradient-to-tr from-[#ffeff7] to-[#F0F6FE] dark:from-gray-900 dark:to-gray-600 dark:hover:bg-gradient-to-tr dark:hover:from-gray-900 dark:hover:to-gray-600 lg:bg-none">
-          <div className="mx-auto text-center font-deca font-bold text-2xl dark:text-[#d58357] text-orange-500">
+          <div className="mx-auto text-center font-deca font-bold text-2xl dark:text-[#e9eff1] text-orange-500">
             Product Design
           </div>
           <div className="font-normal sm:text-[0.95rem] md:text-base text-center">

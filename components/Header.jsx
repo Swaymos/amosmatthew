@@ -12,14 +12,16 @@ import { usePathname } from "next/navigation";
 const Header = () => {
   const pathname = usePathname();
   const isWork = pathname.includes("/work");
+  const isAbout = pathname.includes("/about");
+  const isTech = pathname.includes("/tech");
 
   const { systemTheme, theme, setTheme } = useTheme();
   const router = useRouter().asPath;
   const [mounted, setMounted] = useState(false);
   let Links = [
     { name: "work", link: "/work", isActive: isWork },
-    { name: "about", link: "/about" },
-    { name: "tech", link: "/tech" },
+    { name: "about", link: "/about", isActive: isAbout },
+    { name: "tech", link: "/tech", isActive: isTech },
   ];
   const [isScrolled, setIsScrolled] = useState(false);
   let [open, setOpen] = useState(false);
@@ -73,7 +75,7 @@ const Header = () => {
       ref={touchRef}
       className={`${
         isScrolled && "bg-opacity-[0.7] shadow-md drop-shadow-lg "
-      } font-medium duration-500 bg-opacity-90 transition-all linear z-40 dark:text-white w-[85%] sm:w-[75%] md:w-[70%] lg:w-[55%] xl:w-[50%] max-w-6xl mx-auto  bg-white dark:bg-[#353535] drop-shadow-xs backdrop-blur-sm top-4 sticky rounded-2xl `}
+      } font-medium duration-500 bg-opacity-90 transition-all linear z-40 dark:text-white w-[85%] sm:w-[75%] md:w-[70%] lg:w-[55%] xl:w-[50%] max-w-6xl mx-auto  bg-white dark:bg-[#29252f] drop-shadow-xs backdrop-blur-sm top-4 sticky rounded-2xl `}
     >
       <div className="flex justify-between md:space-x-10 lg:space-x-12 xl:space-x-16 md:flex items-center place-items-center md:justify-center py-3 md:px-10 px-8">
         <div className="header-logo select-none order-2 md:order-1 cursor-pointer flex items-center text-gray-800">
@@ -126,7 +128,7 @@ const Header = () => {
           ></div>
         </div>
         <ul
-          className={` rounded-3xl md:rounded-none dark:bg-[#353535] bg-white  py-4 md:py-0 md:bg-inherit font-semibold order-4 md:flex md:items-center md:pb-0 pb-8 absolute md:static bg-light-blue md:bg-none md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 lg:transition-none transition-all duration-500 ease-in ${
+          className={` rounded-3xl md:rounded-none dark:bg-[transparent] bg-white  py-4 md:py-0 md:bg-inherit font-semibold order-4 md:flex md:items-center md:pb-0 pb-8 absolute md:static bg-light-blue md:bg-none md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${
             open ? "top-[3.5rem]" : "top-[-490px]"
           }`}
         >
@@ -139,10 +141,6 @@ const Header = () => {
                 href={link.link}
                 onClick={() => clickHandler(`${link.name}`)}
                 className={`${
-                  router === link.link
-                    ? " text-purple-400 font-semibold "
-                    : " text-gray-700 dark:text-white "
-                } ${
                   link.isActive
                     ? " text-purple-400 font-semibold "
                     : " text-gray-700 dark:text-white "

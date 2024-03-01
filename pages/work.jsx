@@ -13,7 +13,7 @@ export default function Wok() {
         <div className="pt-24 flex flex-col items-cen mx-auto">
           <h2
             className={
-              " font-deca text-sky-950 items-center mx-auto text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold"
+              " font-deca text-sky-950 items-center mx-auto dark:text-[#e9eff1] text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold"
             }
           >
             Works

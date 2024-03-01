@@ -5,10 +5,7 @@ import { useTheme } from "next-themes";
 import CategoryCard from "@/components/CategoryCard";
 import love_black from "../public/love-black.svg";
 import love_white from "../public/love-white.svg";
-import Rocket from "../public/Rocket.svg";
 import Polish from "../public/Polish.svg";
-import Flash from "../public/Flash.svg";
-import Sparkles from "../public/Sparkles.svg";
 import Developer from "../public/Developer.svg";
 import Weeb from "../public/Weeb.svg";
 import Whale from "../public/Whale.svg";
@@ -27,7 +24,7 @@ export default function About() {
         <div className=" mx-auto pt-16 -pb-10 max-w-7xl">
           <div className=" mx-auto flex flex-col ">
             <h1
-              className={`mt-6 mb-12 font-deca bg-gradient-to-br to-blue-500 via-red-400/90 from-yellow-500  bg-clip-text text-transparent selection:text-gray-700 dark:selection:text-white/90 items-center mx-auto text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold`}
+              className={`mt-6 mb-12 font-deca text-sky-950 dark:text-[#e9eff1] selection:text-gray-700 dark:selection:text-white/90 items-center mx-auto text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold`}
             >
               About
             </h1>
@@ -85,47 +82,25 @@ export default function About() {
           <div className=" text-[0.92rem] md:text-base md:text-md lg:text-lg xl:text-xl mx-auto font-light dark:text-white text-gray-900 ">
             <p className="mt-6 mb-12 leading-10 font-normal">
               A Frontend Software Engineer who develops modern, reactive, and
-              user-friendly web applications using the latest technologies.{" "}
-              <span className="inline-flex items-baseline">
-                <Image
-                  src={Rocket}
-                  alt="rocket"
-                  className="self-center w-8 h-8 mx-1"
-                />
-              </span>{" "}
-              I Believe a perfect blend of UI architecture is one, where the
-              goals and needs are accounted for in an elegant, efficient, and
-              robust design of the UI{" "}
-              <span className="inline-flex items-baseline">
-                <Image
-                  src={Sparkles}
-                  alt="rocket"
-                  className="self-center w-8 h-8 mx-1"
-                />
-              </span>{" "}
-              Experience in ReactJS, React Native, NextJS, and state management
-              like Redux with proficiency in web technologies like HTML5, CSS3,
-              and JavaScript, building large-scale web applications,
-              cross-browser platforms, and design constraints on the web, and
-              building responsive user interfaces.{" "}
-              <span className="inline-flex items-baseline">
-                <Image
-                  src={Flash}
-                  alt="rocket"
-                  className="self-center w-8 h-8 mx-1"
-                />
-              </span>{" "}
+              user-friendly web applications using the latest technologies. I
+              Believe a perfect blend of UI architecture is one, where the goals
+              and needs are accounted for in an elegant, efficient, and robust
+              design of the UI Experience in ReactJS, React Native, NextJS, and
+              state management like Redux with proficiency in web technologies
+              like HTML5, CSS3, and JavaScript, building large-scale web
+              applications, cross-browser platforms, and design constraints on
+              the web, and building responsive user interfaces.{" "}
             </p>
 
-            <p className="text-gray-400 select-none font-semibold mb-1 dark:text-white/30 ">
-              Contact Me
+            <p className="text-gray-400 select-none font-semibold mb-1 dark:text-white/30 pb-4">
+              Love To Say Hello?
             </p>
 
             <p className="">
               While I may not be a widely recognized figure, i am readily
               available for connection on my social media platforms. <br />
-              You can contact me on the{" "}
-              <span className="text-red-700 font-bold">GMail</span>{" "}
+              You can contact me on{" "}
+              <span className="text-red-700 font-bold"></span>{" "}
               <a
                 onClick={() =>
                   navigator.clipboard.writeText("theswayamos@gmail.com")

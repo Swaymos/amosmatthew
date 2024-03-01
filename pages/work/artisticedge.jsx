@@ -17,18 +17,12 @@ export default function ArtisticEdge() {
         <div className=" mx-auto pt-16 -pb-10 max-w-7xl">
           <div className=" mx-auto flex flex-col text-center justify-center">
             <h1
-              className={`mt-6 mb-12 font-deca text-sky-950 items-center mx-auto text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold`}
+              className={`mt-6 mb-12 font-deca dark:text-[#e9eff1] text-sky-950 items-center mx-auto text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold`}
             >
               Artisitc Edge
             </h1>
           </div>
-          <div className=" mx-auto flex flex-col text-center justify-center">
-            <h4
-              className={`mb-12 font-deca text-sky-950  selection:text-gray-700 dark:selection:text-white/90 items-center mx-auto text-base md:text-lg lg:text-lg xl:text-lg font-bold`}
-            >
-              Figma Clone
-            </h4>
-          </div>
+
           <Image
             loading="lazy"
             src={aizen}

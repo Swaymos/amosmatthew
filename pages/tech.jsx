@@ -149,14 +149,16 @@ const tech = () => {
   return (
     <div className="min-h-[75vh] md:min-h-[73vh] px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 xl:px-80 mx-auto">
       <Head>
-        <title>tech ✦ pranjal</title>
+        <title>Tech ✦ Amos Matthew</title>
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
       <main className="max-w-screen max-w-5xl mx-auto">
         <div className="pt-24 flex flex-col mx-auto">
-          <h2 className="bg-gradient-to-br dark:selection:text-white/80 selection:text-black/70 to-yellow-200 from-red-500 bg-clip-text text-transparent items-center mx-auto text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-deca font-bold ">
+          <h1
+            className={`mt-6 mb-12 font-deca text-sky-950 dark:text-[#e9eff1] selection:text-gray-700 dark:selection:text-white/90 items-center mx-auto text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold`}
+          >
             Tech Stack
-          </h2>
+          </h1>
           <p className="mt-8 font-normal lg:text-lg text-center md:w-[70%] mx-auto text-base md:text-[1.15rem] ">
             Just like any other dev, I also spend more time searching and
             experimenting tools than actually coding some senseful things 😎
@@ -169,7 +171,7 @@ const tech = () => {
           >
             <HiOutlineArrowLongLeft className=" w-5 h-3 sm:w-6 sm:h-4 md:w-8 md:h-5 lg:w-10 lg:h-6 stroke-[3] group-hover:fill-[#00bdbd]" />
           </button>
-          <div className="bg-gradient-to-tr dark:from-[#dbfefe25] dark:via-[#f9f2ff10] dark:to-[#fff2ec20] from-[#dbfefe] via-[#f9f2ff] to-[#fff2ec] flex p-2 py-2 sm:p-3 md:p-4 lg:p-6  rounded-xl sm:rounded-[0.8rem] md:rounded-[1.2rem] lg:rounded-[1.6rem] mx-auto items-center justify-center space-x-2 sm:space-x-3 md:space-x-4 h-24 md:h-max lg:space-x-6 transition-all duration-700 ease-linear ">
+          <div className="bg-gradient-to-tr dark:from-[#29252f] dark:via-[#34303a] dark:to-[#fff2ec20] from-[#dbfefe] via-[#f9f2ff] to-[#fff2ec] flex p-2 py-2 sm:p-3 md:p-4 lg:p-6  rounded-xl sm:rounded-[0.8rem] md:rounded-[1.2rem] lg:rounded-[1.6rem] mx-auto items-center justify-center space-x-2 sm:space-x-3 md:space-x-4 h-24 md:h-max lg:space-x-6 transition-all duration-100 ease-linear ">
             <div className="basis-[30%] lg:basis-[25%] h-16 w-12 sm:h-20 sm:w-20 md:h-28 md:w-28 lg:h-32 lg:w-32 rounded-2xl ">
               <div className="flex mx-auto rounded-2xl relative w-full h-full bg-white">
                 <Image
