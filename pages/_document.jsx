@@ -13,7 +13,10 @@ export default function Document() {
           name="title"
           content="Amos Matthew ✦ Frontend Software Engineer"
         />
-        <meta name="description" content="Developer // Designer // Reader" />
+        <meta
+          name="description"
+          content="A Frontend Software Engineer who develops modern, reactive, and user-friendly web applications using the latest technologies."
+        />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
@@ -24,7 +27,7 @@ export default function Document() {
         />
         <meta
           property="og:description"
-          content="Developer // Designer // Reader"
+          content="A Frontend Software Engineer who develops modern, reactive, and user-friendly web applications using the latest technologies."
         />
         <meta property="og:image" content="https://i.ibb.co/cg0bDtf/amos.jpg" />
 
@@ -40,7 +43,7 @@ export default function Document() {
         />
         <meta
           property="twitter:description"
-          content="Developer // Designer // Reader"
+          content="A Frontend Software Engineer who develops modern, reactive, and user-friendly web applications using the latest technologies."
         />
         <meta
           property="twitter:image"
@@ -58,7 +61,7 @@ export default function Document() {
         />
         <meta
           property="og:description"
-          content="Developer // Designer // Reader"
+          content="A Frontend Software Engineer who develops modern, reactive, and user-friendly web applications using the latest technologies."
         />
         <meta
           property="og:image"
