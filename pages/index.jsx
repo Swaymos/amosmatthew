@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <Head>
         <title>Amos Matthew ✦ Frontend Software Engineer</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <div className=" px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
         <div className="2xl:h-max max-w-[90rem] mx-auto">

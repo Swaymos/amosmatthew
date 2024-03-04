@@ -11,7 +11,7 @@ export default function IssueForge() {
     <div className="px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
       <Head>
         <title>Issue Forge</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <main className="  max-w-screen ">
         <div className=" mx-auto pt-16 -pb-10 max-w-7xl">
@@ -33,7 +33,7 @@ export default function IssueForge() {
           <div className="flex justify-center space-x-3 md:space-x-6 lg:space-x-8 items-center  my-4">
             <div className="group border-purple-400 hover:bg-purple-400 hover:text-white hover:drop-shadow-2xl text-purple-500 rounded-md md:rounded-xl px-2 py-1 md:px-4 md:py-2 shadow-md drop-shadow-lg dark:bg-purple-400 dark:shadow-none dark:hover:shadow-white select-none dark:text-white shadow-purple-300 ">
               <Link
-                href="https://issueforge.vercel.app/login"
+                href="https://issueforge.vercel.app"
                 target="_blank"
                 className="flex items-center font-normal lg:font-bold space-x-2 text-sm md:text-base"
               >
