@@ -8,7 +8,6 @@ export default function Document() {
       lang="en"
     >
       <Head>
-        {/* <title>pranjal ✦ developer, designer</title> */}
         <meta
           name="title"
           content="Amos Matthew ✦ Frontend Software Engineer"
@@ -20,7 +19,7 @@ export default function Document() {
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://amosmatthew.com" />
+        <meta property="og:url" content="https://amosmatthew.vercel.app" />
         <meta
           property="og:title"
           content="Amos Matthew ✦ Frontend Software Engineer"
