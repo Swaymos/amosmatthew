@@ -128,7 +128,7 @@ const Header = () => {
           ></div>
         </div>
         <ul
-          className={` rounded-3xl md:rounded-none dark:bg-[transparent] bg-white  py-4 md:py-0 md:bg-inherit font-semibold order-4 md:flex md:items-center md:pb-0 pb-8 absolute md:static bg-light-blue md:bg-none md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${
+          className={` rounded-3xl md:rounded-none dark:bg-[text-gray-700] bg-white  py-4 md:py-0 md:bg-inherit font-semibold order-4 md:flex md:items-center md:pb-0 pb-8 absolute md:static bg-light-blue md:bg-none md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${
             open ? "top-[3.5rem]" : "top-[-490px]"
           }`}
         >
@@ -155,7 +155,7 @@ const Header = () => {
             className="md:ml-8  text-base xl:text-[1.1rem] font-regular md:my-0 my-7"
           >
             <a
-              href="/amosmatthew.pdf"
+              href="/amosmatthewresume.pdf"
               target="_blank"
               rel="noreferrer"
               className="text-gray-800 dark:text-white hover:text-purple-500 dark:hover:text-purple-500 duration-500"
