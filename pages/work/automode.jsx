@@ -39,7 +39,7 @@ export default function AutoMode() {
           <div className="flex justify-center space-x-3 md:space-x-6 lg:space-x-8 items-center  my-4">
             <div className="group border-purple-400 hover:bg-purple-400 hover:text-white hover:drop-shadow-2xl text-purple-500 rounded-md md:rounded-xl px-2 py-1 md:px-4 md:py-2 shadow-md drop-shadow-lg dark:bg-purple-400 dark:shadow-none dark:hover:shadow-white select-none dark:text-white shadow-purple-300 ">
               <Link
-                href="/"
+                href="https://automode-pi.vercel.app/"
                 target="_blank"
                 className="flex items-center font-normal lg:font-bold space-x-2 text-sm md:text-base"
               >
@@ -60,13 +60,13 @@ export default function AutoMode() {
           </div>
           <div className="pt-10">
             <div align="">
-              It's a minified Instagram clone. Make post and quick edits to your
-              posted content.
+              Get useful information on any car brand and model. View images and
+              some interesting facts about any car brand.
             </div>
           </div>
 
           <h2 className="font-semibold text-[1.5rem] mt-5 text-gray-700 dark:text-white">
-            ⚙️ Technologies Used In Building Social Sphere
+            ⚙️ Technologies Used In Building Auto Mode
           </h2>
 
           <ul className="list-disc pt-3">
