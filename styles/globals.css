@@ -10,6 +10,13 @@
   @apply bg-emerald-100 dark:bg-purple-400/70;
 }
 
+.work-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
 ::-webkit-scrollbar {
   /* height: 10px; */
   /* border-radius: 1px solid #d5d5d5; */
