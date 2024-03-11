@@ -36,7 +36,7 @@ export default function About() {
             </div>
             <div className="text-center mx-auto mt-8 z-20">
               <h3 className="mx-auto  font-bold text-lg lg:text-xl xl:text-2xl">
-                Amos Matthew{" "}
+                Amos Matthew
               </h3>
               <p className="text-gray-400 font-deca font-normal mt-4 text-xs sm:text-sm md:text-md lg:text-lg ">
                 Frontend Software Engineer
@@ -53,7 +53,7 @@ export default function About() {
               Leveraging proficiency in HTML, CSS, JavaScript, and frontend
               frameworks, pride is taken in delivering polished solutions
               tailored to your needs. Let's collaborate to create something
-              remarkable for your audience.{" "}
+              remarkable for your audience.
             </p>
 
             <p className="text-gray-400 select-none font-semibold mb-1 dark:text-white/30 pb-4">
