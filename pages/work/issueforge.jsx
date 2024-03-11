@@ -4,7 +4,7 @@ import { FiFileText } from "react-icons/fi";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import Image from "next/image";
-import aizen from "../../public/work/kamui1.png";
+import issueForge from "../../public/work/issueforge.png";
 
 export default function IssueForge() {
   return (
@@ -25,7 +25,7 @@ export default function IssueForge() {
 
           <Image
             loading="lazy"
-            src={aizen}
+            src={issueForge}
             alt=""
             width="max"
             className="drop-shadow-2xl mt-4 mb-10"
