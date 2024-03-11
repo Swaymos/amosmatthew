@@ -4,7 +4,7 @@ import { FiFileText } from "react-icons/fi";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import Image from "next/image";
-import issueForge from "../../public/work/issueforge.png";
+import issueForge from "../../public/work/issueforge.jpg";
 
 export default function IssueForge() {
   return (
@@ -28,7 +28,7 @@ export default function IssueForge() {
             src={issueForge}
             alt=""
             width="max"
-            className="drop-shadow-2xl mt-4 mb-10"
+            className="drop-shadow-2xl mt-4 mb-10 work-img"
           />
           <div className="flex justify-center space-x-3 md:space-x-6 lg:space-x-8 items-center  my-4">
             <div className="group border-purple-400 hover:bg-purple-400 hover:text-white hover:drop-shadow-2xl text-purple-500 rounded-md md:rounded-xl px-2 py-1 md:px-4 md:py-2 shadow-md drop-shadow-lg dark:bg-purple-400 dark:shadow-none dark:hover:shadow-white select-none dark:text-white shadow-purple-300 ">

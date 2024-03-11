@@ -5,11 +5,6 @@ import { useTheme } from "next-themes";
 import CategoryCard from "@/components/CategoryCard";
 import love_black from "../public/love-black.svg";
 import love_white from "../public/love-white.svg";
-import Polish from "../public/Polish.svg";
-import Developer from "../public/Developer.svg";
-import Weeb from "../public/Weeb.svg";
-import Whale from "../public/Whale.svg";
-
 export default function About() {
   const { systemTheme, theme } = useTheme();
   const currentTheme = theme === "system" ? systemTheme : theme;
@@ -42,54 +37,23 @@ export default function About() {
             <div className="text-center mx-auto mt-8 z-20">
               <h3 className="mx-auto  font-bold text-lg lg:text-xl xl:text-2xl">
                 Amos Matthew{" "}
-                <span className="inline-flex items-baseline">
-                  <Image
-                    src={Whale}
-                    alt="rocket"
-                    className="self-center w-8 h-8 mx-1"
-                  />
-                </span>{" "}
               </h3>
               <p className="text-gray-400 font-deca font-normal mt-4 text-xs sm:text-sm md:text-md lg:text-lg ">
-                Developer{" "}
-                <span className="inline-flex items-baseline">
-                  <Image
-                    src={Developer}
-                    alt="rocket"
-                    className="self-center w-6 h-6 mx-1"
-                  />
-                </span>{" "}
-                &#47;&#47; Designer{" "}
-                <span className="inline-flex items-baseline">
-                  <Image
-                    src={Polish}
-                    alt="rocket"
-                    className="self-center w-6 h-6 mx-1"
-                  />
-                </span>{" "}
-                &#47;&#47; Reader{" "}
-                <span className="inline-flex items-baseline">
-                  <Image
-                    src={Weeb}
-                    alt="rocket"
-                    className="self-center w-6 h-6 mx-1"
-                  />
-                </span>{" "}
+                Frontend Software Engineer
               </p>
             </div>
           </div>
           <CategoryCard />
           <div className=" text-[0.92rem] md:text-base md:text-md lg:text-lg xl:text-xl mx-auto font-light dark:text-white text-gray-900 ">
             <p className="mt-6 mb-12 leading-10 font-normal">
-              A Frontend Software Engineer who develops modern, reactive, and
-              user-friendly web applications using the latest technologies. I
-              Believe a perfect blend of UI architecture is one, where the goals
-              and needs are accounted for in an elegant, efficient, and robust
-              design of the UI Experience in ReactJS, React Native, NextJS, and
-              state management like Redux with proficiency in web technologies
-              like HTML5, CSS3, and JavaScript, building large-scale web
-              applications, cross-browser platforms, and design constraints on
-              the web, and building responsive user interfaces.{" "}
+              Amos Matthew is a seasoned frontend software engineer dedicated to
+              crafting exceptional digital experiences. With a blend of
+              technical expertise and creative flair, specialized in designing
+              elegant and intuitive interfaces that leave a lasting impression.
+              Leveraging proficiency in HTML, CSS, JavaScript, and frontend
+              frameworks, pride is taken in delivering polished solutions
+              tailored to your needs. Let's collaborate to create something
+              remarkable for your audience.{" "}
             </p>
 
             <p className="text-gray-400 select-none font-semibold mb-1 dark:text-white/30 pb-4">
@@ -103,19 +67,19 @@ export default function About() {
               <span className="text-red-700 font-bold"></span>{" "}
               <a
                 onClick={() =>
-                  navigator.clipboard.writeText("theswayamos@gmail.com")
+                  navigator.clipboard.writeText("thiswayamos@gmail.com")
                 }
                 className=" underline underline-offset-4 decoration-2 decoration-purple-400 group select-all font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select "
-                href="mailto:theswayamos@gmail.com"
+                href="mailto:thiswayamos@gmail.com"
               >
                 {" "}
-                theswayamos@gmail.com
+                thiswayamos@gmail.com
               </a>{" "}
             </p>
           </div>
           <div className="flex mx-auto justify-center mt-16 select-none">
             <span className="font-black font-app text-2xl md:text-3xl align-text-bottom tracking-wider mx-3 md:mx-6">
-              dattebayo
+              Arigato
             </span>
             {currentTheme === "dark" ? (
               <Image src={love_white} alt="love" width="30" className="-mt-4" />
