@@ -10,6 +10,13 @@
   @apply bg-emerald-100 dark:bg-purple-400/70;
 }
 
+.resume iframe {
+  width: 90%;
+  margin: 10px auto;
+  border-radius: 10px;
+  height: 700px;
+}
+
 .work-img {
   height: 300px;
   width: 100%;
