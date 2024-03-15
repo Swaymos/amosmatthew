@@ -14,6 +14,7 @@ const Header = () => {
   const isWork = pathname.includes("/work");
   const isAbout = pathname.includes("/about");
   const isTech = pathname.includes("/tech");
+  const isResume = pathname.includes("/resume");
 
   const { systemTheme, theme, setTheme } = useTheme();
   const router = useRouter().asPath;
@@ -22,6 +23,7 @@ const Header = () => {
     { name: "work", link: "/work", isActive: isWork },
     { name: "about", link: "/about", isActive: isAbout },
     { name: "tech", link: "/tech", isActive: isTech },
+    { name: "resume", link: "/resume", isActive: isResume },
   ];
   const [isScrolled, setIsScrolled] = useState(false);
   let [open, setOpen] = useState(false);
@@ -150,19 +152,6 @@ const Header = () => {
               </Link>
             </li>
           ))}
-          <li
-            key={4}
-            className="md:ml-8  text-base xl:text-[1.1rem] font-regular md:my-0 my-7"
-          >
-            <a
-              href="/resume"
-              target="_blank"
-              rel="noreferrer"
-              className="text-gray-800 dark:text-white hover:text-purple-500 dark:hover:text-purple-500 duration-500"
-            >
-              resume
-            </a>
-          </li>
         </ul>
       </div>
     </nav>

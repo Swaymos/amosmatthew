@@ -12,7 +12,7 @@ const Experience = () => {
         <div className="bg-purple-400  h-28 w-28 flex-col justify-end mx-auto blur-none z-40 items-center text-center text-xl text-white font-medium rounded-lg p-2">
           <div className="basis-[60%] text-5xl font-black ">
             <h2 className="text-border mt-1 ">
-              {new Date().getUTCFullYear() - 2014}
+              {new Date().getUTCFullYear() - 2019}
             </h2>
           </div>
           <div className="basis-[30%] text-xs mt-3 font-bold">
